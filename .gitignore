@@ -1,1 +1,15 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
 .env
+
+db.sqlite3
+
+.env
+.env.local
+.env.*.local
+.env.example.bak
+.vscode/
