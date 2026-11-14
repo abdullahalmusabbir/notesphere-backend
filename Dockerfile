@@ -41,9 +41,6 @@ WORKDIR /app
 # Copy project code
 COPY . .
 
-# Collect static files (WhiteNoise serves them in production)
-RUN python manage.py collectstatic --noinput --settings=configs.settings
-
 # Make entrypoint executable
 RUN chmod +x entrypoint.sh
 
