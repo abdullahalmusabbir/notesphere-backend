@@ -1,9 +1,3 @@
-"""Request validation and response representation.
-
-Input serializers reject unknown fields (mass assignment protection) and only
-accept real strings for text fields, so objects like {"$ne": ""} never get
-through. Output serializers are allowlists, so password hashes cannot leak.
-"""
 import math
 import re
 from collections.abc import Mapping

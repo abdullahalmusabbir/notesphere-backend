@@ -1,8 +1,3 @@
-"""Collection names, field rules and document builders for NoteSphere.
-
-Data lives in MongoDB and is accessed with PyMongo, so a "model" here is just
-a plain dict. These helpers keep the shape of every document in one place.
-"""
 from datetime import datetime, timezone
 from typing import Any, Iterable, Optional
 

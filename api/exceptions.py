@@ -1,9 +1,3 @@
-"""Custom exceptions and the central DRF exception handler.
-
-Every error leaves the API in the same shape:
-    {"success": false, "message": "...", "errors": {...}}
-Internal details (stack traces, database errors) are only logged, never returned.
-"""
 import logging
 
 from django.core.exceptions import PermissionDenied as DjangoPermissionDenied

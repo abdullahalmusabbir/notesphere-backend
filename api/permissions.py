@@ -1,4 +1,3 @@
-"""All permission rules live here. Views only pick the right class."""
 from bson import ObjectId
 from django.conf import settings
 from rest_framework.permissions import SAFE_METHODS, BasePermission

@@ -1,8 +1,3 @@
-"""Password hashing, JWT creation/validation and the DRF authentication class.
-
-Access tokens are short lived and stateless. Refresh tokens are stored (by jti
-only, never the token itself) so they can be rotated and revoked.
-"""
 import os
 import secrets
 from datetime import timedelta
